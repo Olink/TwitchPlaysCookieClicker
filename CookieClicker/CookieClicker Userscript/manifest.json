@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "Cookieclicker.user.js" ],
+        "matches":          [ "http://orteil.dashnet.org/cookieclicker/" ]
+    } ],
+    "description":  "Cookie Clicker Injection Script",
+    "name":         "Cookie Clicker Controller",
+    "version":      "1"
+}
